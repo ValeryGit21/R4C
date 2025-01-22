@@ -12,4 +12,4 @@ def robot_view(request):
         if form.is_valid():
             form.save()
 
-    return HttpResponse('Hello World')
+    return HttpResponse('Hello Robots')
